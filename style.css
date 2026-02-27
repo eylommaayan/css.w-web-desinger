@@ -29,7 +29,7 @@ html {
   bottom: 3rem;
   width: 13rem;
   height: 13rem;
-  background-color: #9b0e0e;
+  background-color: #1acae1;
   border-radius: 50%;
   border: 0.2rem dotted #fff;
   padding: 0.1rem;
@@ -49,7 +49,7 @@ html {
 
 .main-btn:hover .main-btn-content {
   transform: rotate(60deg);
-  border: 0.2rem dotted #9b0e0e;
+  border: 0.2rem dotted #1acae1;
   transition:
     transform 0.2s 0.5s,
     border 0.2s;
@@ -172,7 +172,7 @@ html {
 .mouse-dot {
   width: 0.5rem;
   height: 0.5rem;
-  background-color: #9b0e0e;
+  background-color: #1acae1;
   animation: mouseDotAnim 10s infinite linear;
 }
 
@@ -199,7 +199,7 @@ html {
   height: 100vh;
   background:
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(images/bg.jpg) center no-repeat;
+    url(images/bg.png) center no-repeat;
   background-size: cover;
 }
 /* End of Page BG */
@@ -371,7 +371,7 @@ html {
 }
 
 .circle-2 {
-  background: url(images/landing/circle-2-img.jpg) center no-repeat;
+  background: url(images/landing/circle-2-img.png) center no-repeat;
   background-size: cover;
   background-clip: content-box;
   border: 0.5rem dashed #ffbd07;
@@ -382,7 +382,7 @@ html {
   background: url(images/landing/circle-3-img.jpg) center no-repeat;
   background-size: cover;
   background-clip: content-box;
-  border: 1rem double #9b0e0e;
+  border: 1rem double #1acae1;
   margin-left: -10rem;
 }
 
@@ -463,7 +463,7 @@ html {
   color: #aaa;
   letter-spacing: 0.5rem;
   line-height: 0.9;
-  text-shadow: 0 0 1rem #9b0e0e;
+  text-shadow: 0 0 1rem #1acae1;
   position: relative;
   mix-blend-mode: color-dodge;
 }
@@ -518,7 +518,7 @@ html {
   display: flex;
   justify-content: center;
   position: relative;
-  border: 0.2rem dotted #9b0e0e;
+  border: 0.2rem dotted #1acae1;
   border-radius: 0.5rem;
   cursor: pointer;
   perspective: 20rem;
@@ -685,7 +685,7 @@ html {
 .service {
   width: 70%;
   margin: 2rem 0;
-  border-bottom: 0.5rem solid #9b0e0e;
+  border-bottom: 0.5rem solid #1acae1;
 }
 
 .service-btn {
@@ -700,7 +700,7 @@ html {
   font-size: 10rem;
   font-style: italic;
   font-weight: bold;
-  color: #9b0e0e;
+  color: #1acae1;
   position: absolute;
   right: 0;
   pointer-events: none;
@@ -740,7 +740,7 @@ html {
   font-family: "Poppins", sans-serif;
   font-size: 6rem;
   font-weight: 400;
-  color: #9b0e0e;
+  color: #1acae1;
   letter-spacing: 0.3rem;
   margin-bottom: 3rem;
   transition: opacity 0.3s;
@@ -755,7 +755,7 @@ html {
   padding: 0.5rem;
   margin: 1rem 0;
   background-color: rgba(255, 255, 255, 0.1);
-  border: 0.1rem solid #9b0e0e;
+  border: 0.1rem solid #1acae1;
   font-size: 1.7rem;
   font-weight: bold;
   color: #aaa;
@@ -771,7 +771,7 @@ html {
 .form-submit-btn {
   width: 20rem;
   height: 5rem;
-  background-color: #9b0e0e;
+  background-color: #1acae1;
   border: none;
   align-self: flex-start;
   font-size: 1.8rem;
