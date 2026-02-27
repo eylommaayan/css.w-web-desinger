@@ -254,27 +254,29 @@ menuIcon.addEventListener("click", () => {
 // End of Navigation
 
 // About Me Text
-// About Me Text
+
 const aboutMeText = document.querySelector(".about-me-text");
 
 // טקסט קצר וקולע בעברית
 const aboutMeTextContent = "אתר טוב = חווית שירות טובה:)";
 
-Array.from(aboutMeTextContent).forEach((char) => {
-  const span = document.createElement("span");
-  span.textContent = char;
+// הרצת הקוד רק אם המסך גדול מ-768 פיקסלים
+if (window.innerWidth > 768) {
+  Array.from(aboutMeTextContent).forEach((char) => {
+    const span = document.createElement("span");
+    span.textContent = char;
 
-  // טיפול ברווחים - כדי שהטקסט העברי לא יישבר בצורה מוזרה
-  if (char === " ") {
-    span.style.marginRight = "5px";
-  }
+    if (char === " ") {
+      span.style.marginRight = "5px";
+    }
 
-  aboutMeText.appendChild(span);
+    aboutMeText.appendChild(span);
 
-  span.addEventListener("mouseenter", (e) => {
-    e.target.style.animation = "aboutMeTextAnim 10s infinite";
+    span.addEventListener("mouseenter", (e) => {
+      e.target.style.animation = "aboutMeTextAnim 10s infinite";
+    });
   });
-});
+}
 // End of About Me Text
 
 // Projects

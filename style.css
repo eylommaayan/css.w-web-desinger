@@ -1068,3 +1068,8 @@ html {
   }
 }
 /* End of Responsive */
+@media (max-width: 768px) {
+  .about-me-text {
+    display: none !important;
+  }
+}
